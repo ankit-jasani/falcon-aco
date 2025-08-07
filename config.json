@@ -1,35 +1,38 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://www.aemshop.net/graphql",
-      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/GSnKiqpZtxHnpptoxJC6L9/graphql",
+      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/8idEEDDiVwjCEJAyB5kjfi/graphql",
+      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/8idEEDDiVwjCEJAyB5kjfi/graphql",
       "headers": {
+        "all": {
+          "Store": "default"
+        },
         "cs": {
-             "ac-view-id": "a53e62e4-9eb8-4769-bf86-81c2d7dd5f98",
-             "ac-price-book-id": "west_coast_inc",
-             "ac-source-locale": "en-US"
-           }
-         },
+          "ac-channel-id": "0d3eebf7-b5fb-4904-9ccf-f35fcc61862b",
+          "ac-environment-id": "8idEEDDiVwjCEJAyB5kjfi",
+          "ac-price-book-id": "west_coast_inc",
+          "ac-scope-locale": "en-US"
+        }
       },
       "analytics": {
         "base-currency-code": "USD",
         "environment": "Production",
-        "environment-id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a",
-        "store-code": "main_website_store",
+        "environment-id": "8idEEDDiVwjCEJAyB5kjfi",
+        "store-code": "west_coast_inc",
         "store-id": 1,
-        "store-name": "Main Website Store",
-        "store-url": "https://www.aemshop.net",
+        "store-name": "ACO Store",
+        "store-url": "https://main--boilerplate-aco--adobe-commerce.aem.live",
         "store-view-code": "default",
         "store-view-id": 1,
         "store-view-name": "Default Store View",
-        "website-code": "base",
+        "website-code": "default",
         "website-id": 1,
         "website-name": "Main Website"
       },
       "plugins": {
         "picker": {
-           "rootCategory": "2"
-         }
+          "rootCategory": "2"
+        }
       }
     }
   }
